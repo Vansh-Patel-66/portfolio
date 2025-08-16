@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Portfolio - Vansh</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="top">
+        <a href="#home"><span>Portfolio</span></a>
+        <div class="dil">
+            <a href="#abo">About</a>
+            <a href="#exp">Experience</a>
+            <a href="#home">Home</a>
+        </div>
+        <a href="#contact" class="con">Contact</a>
+    </div>
+
+    <!-- Home Section -->
+    <div class="home" id="home">
+        <div class="home1">
+            <h3>Hi</h3>
+            <h1>I'm <span>Vansh <br></span>a Frontend Developer</h1>
+        </div>
+        <div class="imag">
+            <img src="image2.webp" alt="Profile Picture">
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="abo" id="abo">
+        <div class="abo-con">
+            <h3 class="heading">About <span>Me</span></h3>
+            <h2>Frontend<span> Developer</span></h2>
+            <ul>
+                <li>Passionate about creating modern and responsive web designs</li>
+                <li>Strong understanding of HTML, CSS, and JavaScript</li>
+                <li>Focused on delivering user-friendly and aesthetic web solutions</li>
+                <li>Constantly learning and adapting to new technologies</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Experience Section -->
+    <div class="abo" id="exp">
+        <div class="abo-con">
+            <h3 class="heading">My <span>Experience</span></h3>
+            <h2>Work & <span>Projects</span></h2>
+            <ul>
+                <li>Worked on multiple freelance projects for personal portfolios</li>
+                <li>Developed responsive websites with cross-browser compatibility</li>
+                <li>Collaborated on group projects involving UI/UX improvements</li>
+                <li>Implemented interactive features using JavaScript</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="con-form" id="contact">
+        <h2 class="con-me">Contact <span>Me</span></h2>
+        <form id="contactForm">
+            <div class="inp">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+            </div>
+            
+            <div class="inp">
+                <input type="number" placeholder="Phone Number" required>
+                <input type="text" placeholder="Subject" required>
+            </div>
+
+            <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn-1">        
+        </form>
+    </div>
+
+    <!-- Custom Popup -->
+    <div id="customAlert" style="
+        display:none;
+        position:fixed;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        background:#0a0000;
+        padding:20px;
+        border-radius:10px;
+        box-shadow:0 4px 10px rgba(0,0,0,0.3);
+        text-align:center;
+        font-family:Arial, sans-serif;
+        z-index:1000;
+    ">
+        <p>Thank you for your response, I will soon get in touch with you.</p><br>
+        <button onclick="closeAlert()">OK</button>
+    </div>
+
+    <script>
+        const form = document.getElementById("contactForm");
+
+        form.addEventListener("submit", function(e){
+            e.preventDefault();
+            document.getElementById("customAlert").style.display = "block";
+            form.reset();
+        });
+
+        function closeAlert(){
+            document.getElementById("customAlert").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>

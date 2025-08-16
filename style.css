@@ -1,0 +1,191 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0f0f0f; 
+    color: #f0f0f0;
+}
+
+/* Navbar */
+.top {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 20px 12%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.top span {
+    font-size: 26px;
+    color: #00aaff;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.top span:hover {
+    color: #00ddff;
+    text-shadow: 0 0 10px #00ddff;
+}
+.dil a {
+    font-size: 18px;
+    color: #fff;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+.dil a:hover {
+    color: #00aaff;
+    border-bottom: 2px solid #00aaff;
+}
+.con {
+    padding: 8px 16px;
+    background-color: #00aaff;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.con:hover {
+    background-color: #0088cc;
+    box-shadow: 0 0 10px #00aaff;
+}
+
+/* Home Section */
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #101820, #1a1a1a);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 12% 50px 12%;
+    gap: 3em;
+}
+.home1 h3 {
+    font-size: 40px;
+    color: #fff;
+}
+.home1 h1 {
+    font-size: 52px;
+    color: #fff;
+    line-height: 1.2;
+}
+.home span {
+    color: #00aaff;
+}
+.imag {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.imag img {
+    border-radius: 50%;
+    width: 360px;
+    margin-right: 60px;
+    margin-top: 120px;
+    border: 5px solid #00aaff;
+    box-shadow: 0 0 25px rgba(0, 170, 255, 0.6);
+}
+
+/* About & Experience Sections */
+.abo {
+    padding: 100px 15%;
+    background: #111;
+    text-align: left;
+}
+
+
+.abo-con h3.heading {
+    font-size: 42px;
+    color: #00aaff;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+
+.abo-con h2 {
+    font-size: 28px;
+    margin-bottom: 1em;
+    color: #f0f0f0;
+    text-align: left;
+}
+.abo-con h2 span {
+    color: #00aaff;
+}
+
+
+.abo-con ul {
+    margin-left: 20px;
+}
+.abo-con ul li {
+    font-size: 18px;
+    margin: 0.6em 0;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+
+.con-form {
+    padding: 80px 12%;
+    background: linear-gradient(135deg, #0a0a0a, #141414);
+}
+.con-form h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 1em;
+    color: #fff;
+}
+.con-form h2 span {
+    color: #00aaff;
+}
+.con-form form {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+.con-form .inp {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.con-form input,
+.con-form textarea {
+    width: 100%;
+    padding: 1em;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background: #222;
+    color: #fff;
+}
+.con-form textarea {
+    resize: none;
+}
+.btn-1 {
+    padding: 12px 25px;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-1:hover {
+    background-color: #0088cc;
+    box-shadow: 0 0 15px #00aaff;
+}
