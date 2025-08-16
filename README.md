@@ -2,7 +2,7 @@
 This is my personal portfolio website, built using HTML, CSS, and JavaScript.
 It showcases my skills, projects, and provides a way to get in touch with me.
 
-📂 Project Structure
+# Project Structure
 
 portfolio/
 │── index.html        # Main HTML file
@@ -13,7 +13,7 @@ portfolio/
 
 │── README.md         # Documentation
 
-🚀 Features
+# Features
 
 Responsive navbar with smooth scrolling
 
@@ -28,7 +28,8 @@ Contact form with custom popup alert
 Modern dark theme UI with blue accent highlights
 
 
-Setup Instructions
+
+# Setup Instructions
 
 1. Clone the repository
   
