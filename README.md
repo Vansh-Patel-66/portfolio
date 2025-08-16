@@ -1,9 +1,9 @@
 # portfolio
-This is my personal portfolio website, built using HTML, CSS, and JavaScript.
-It showcases my skills, projects, and provides a way to get in touch with me.
+*This is my personal portfolio website, built using HTML, CSS, and JavaScript.*
+*It showcases my skills, projects, and provides a way to get in touch with me.*
 
 # Project Structure
-
+```
 │── index.html        # Main HTML file
 
 │── style.css         # Stylesheet
@@ -11,20 +11,20 @@ It showcases my skills, projects, and provides a way to get in touch with me.
 │── image2.olwebp       # Profile image (replace with your own)
 
 │── README.md         # Documentation
-
+```
 # Features
 
-Responsive navbar with smooth scrolling
+- Responsive navbar with smooth scrolling
 
-Home section with profile intro & picture
+- Home section with profile intro & picture
 
-About section describing skills & experience
+- About section describing skills & experience
 
-Experience section with projects & work highlights
+- Experience section with projects & work highlights
 
-Contact form with custom popup alert
+- Contact form with custom popup alert
 
-Modern dark theme UI with blue accent highlights
+- Modern dark theme UI with blue accent highlights
 
 
 
@@ -36,14 +36,19 @@ Modern dark theme UI with blue accent highlights
 
 4. Open the project
    
-Navigate to the project folder:
-
-cd portfolio
+5. Navigate to the project folder:
 
 6. Run locally
    
-Just open index.html in your browser.
+Just open index.html in your browser.<br>
+You can also use Live Server (VS Code extension) for a better experience:<br>
+Install the Live Server extension in VS Code<br>
+Right-click index.html → "Open with Live Server"<br>
 
-You can also use Live Server (VS Code extension) for a better experience:
-Install the Live Server extension in VS Code
-Right-click index.html → "Open with Live Server"
+# Contact
+
+If you'd like to connect or collaborate, feel free to reach out:
+
+**Email: vansh2966.patel@gmail.com**
+**LinkedIn:** [Vansh Patel](https://www.linkedin.com/in/vansh-patel-0b3538321)  
+**GitHub:** [Vansh-Patel-66](https://github.com/Vansh-Patel-66)
