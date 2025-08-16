@@ -4,7 +4,6 @@ It showcases my skills, projects, and provides a way to get in touch with me.
 
 # Project Structure
 
-portfolio/
 │── index.html        # Main HTML file
 
 │── style.css         # Stylesheet
